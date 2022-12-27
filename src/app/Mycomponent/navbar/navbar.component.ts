@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  date!: Date;
+
+  constructor(){
+    setInterval(() => {
+      this.date = new Date()
+    }, 1000)
+  }
 
 }

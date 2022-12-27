@@ -10,6 +10,8 @@ import { Email } from '../bindingClass/email';
 })
 export class EmailComponent {
 
+ 
+
   flag:boolean=false;
 
    email:Email = new Email();

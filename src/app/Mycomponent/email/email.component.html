@@ -21,7 +21,7 @@
      <div class="text-center">
       <mat-spinner *ngIf="flag" style="margin: auto;" ></mat-spinner>
       <button  [disabled]="flag"  mat-raised-button color="primary" type="submit"  >Send Email</button>
-      <button mat-raised-button color="accent" type="reset">Reset</button>
+      <button  [disabled]="flag" mat-raised-button color="accent" type="reset">Reset</button>
      </div>
     </form>
   </div>
